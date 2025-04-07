@@ -1,5 +1,4 @@
 <script setup>
-import jobData from '@/components/jobs.json'
 import JobListing from './JobListing.vue';
 import { ref, reactive, defineProps, onMounted } from 'vue';
 import ViewJobs from './ViewJobs.vue';
