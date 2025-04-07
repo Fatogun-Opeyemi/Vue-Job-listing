@@ -5,7 +5,6 @@ import JobViews from "@/views/JobViews.vue";
 import NotFound from "@/views/NotFound.vue";
 import EditJob from "@/views/EditJob.vue";
 import AddJob from "@/views/AddJob.vue";
-import Alova from "@/components/tests/Alova.vue";
 
 const router = createRouter({
     history : createWebHistory(import.meta.env.BASE_URL),
