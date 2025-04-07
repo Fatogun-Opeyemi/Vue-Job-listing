@@ -1,0 +1,30 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server src/components/jobs.json --port 8000"
+  },
+  "dependencies": {
+    "@alova/adapter-axios": "^2.0.13",
+    "@tailwindcss/vite": "^4.0.17",
+    "alova": "^3.2.10",
+    "axios": "^1.8.4",
+    "json-server": "^1.0.0-beta.3",
+    "primeicons": "^7.0.0",
+    "tailwindcss": "^4.0.17",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vue-spinner": "^1.0.4",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.1",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  }
+}
